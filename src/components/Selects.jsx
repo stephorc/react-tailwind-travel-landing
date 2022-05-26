@@ -24,4 +24,4 @@ const Selects = () => {
   )
 }
 
-export default Selects
+export default Selects;
