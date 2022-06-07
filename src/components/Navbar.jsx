@@ -21,47 +21,45 @@ const Navbar = () => {
 
   return (
     <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white'>
-      <div>
-        {/* or TROTTER. */}
+      <div className='cursor-pointer'>
         <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>TRAVELER.</h1>
       </div>
       <ul className='hidden md:flex'>
-        <li>Home</li>
-        <li>Destination</li>
-        <li>Travel</li>
-        <li>View</li>
-        <li>Book</li>
+        <li className='cursor-pointer hover:text-indigo-700'>Home</li>
+        <li className='cursor-pointer hover:text-indigo-700'>Destination</li>
+        <li className='cursor-pointer hover:text-indigo-700'>Travel</li>
+        <li className='cursor-pointer hover:text-indigo-700'>View</li>
+        <li className='cursor-pointer hover:text-indigo-700'>Book</li>
       </ul>
       <div className='hidden md:flex'>
-        <BiSearch className='mr-2' size={20}/>
-        <BsPerson size={20}/>
+        <BiSearch className='mr-2 cursor-pointer  hover:text-indigo-700' size={20}/>
+        <BsPerson className='cursor-pointer hover:text-indigo-700' size={20}/>
       </div>
 
       {/* hamburger */}
-      <div onClick={handleNav} className='md:hidden z-10'>
+      <div onClick={handleNav} className='md:hidden z-10 cursor-pointer'>
         {nav ? <AiOutlineClose className='text-black' size={20} /> : <HiOutlineMenuAlt4 size={20} />}
       </div>
       
       {/* mobile dropdown */}
       <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
-          {/* or TROTTER. */}
           <h1>TRAVELER.</h1>
-          <li className='border-b'>Home</li>
-          <li className='border-b'>Destinations</li>
-          <li className='border-b'>Travel</li>
-          <li className='border-b'>View</li>
-          <li className='border-b'>Book</li>
+          <li className='border-b cursor-pointer hover:text-indigo-700'>Home</li>
+          <li className='border-b cursor-pointer hover:text-indigo-700'>Destinations</li>
+          <li className='border-b cursor-pointer hover:text-indigo-700'>Travel</li>
+          <li className='border-b cursor-pointer hover:text-indigo-700'>View</li>
+          <li className='border-b cursor-pointer hover:text-indigo-700'>Book</li>
           <div className='flex flex-col'>
             <button className='my-6'>Search</button>
             <button>Account</button>
           </div>
           <div className='flex justify-between my-6'>
-            <FaFacebook className='icon' />
-            <FaTwitter className='icon' />
-            <FaYoutube className='icon' />
-            <FaPinterest className='icon' />
-            <FaInstagram className='icon' />
+            <FaFacebook className='icon hover:text-indigo-700' />
+            <FaTwitter className='icon hover:text-indigo-700' />
+            <FaYoutube className='icon hover:text-indigo-700' />
+            <FaPinterest className='icon hover:text-indigo-700' />
+            <FaInstagram className='icon hover:text-indigo-700' />
           </div>
         </ul>
       </div>
