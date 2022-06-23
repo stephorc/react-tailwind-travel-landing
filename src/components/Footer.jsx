@@ -14,27 +14,27 @@ const Footer = () => {
         <div className='sm:flex text-center justify-between items-center'>
           <h1>BEACHES.</h1>
           <div className='flex justify-between w-full sm:max-w-[280px] my-4'>
-            <FaFacebook className='icon hover:text-indigo-700' />
-            <FaTwitter className='icon hover:text-indigo-700' />
-            <FaYoutube className='icon hover:text-indigo-700' />
-            <FaPinterest className='icon hover:text-indigo-700' />
-            <FaInstagram className='icon hover:text-indigo-700' />
+            <FaFacebook className='icon hover:text-indigo-400' />
+            <FaTwitter className='icon hover:text-indigo-400' />
+            <FaYoutube className='icon hover:text-indigo-400' />
+            <FaPinterest className='icon hover:text-indigo-400' />
+            <FaInstagram className='icon hover:text-indigo-400' />
           </div>
         </div>
         <div className='flex justify-between'>
           <ul className='lg:flex'>
-            <li className='cursor-pointer hover:text-indigo-700'>About</li>
-            <li className='cursor-pointer hover:text-indigo-700'>Partnerships</li>
-            <li className='cursor-pointer hover:text-indigo-700'>Careers</li>
-            <li className='cursor-pointer hover:text-indigo-700'>Newsroom</li>
-            <li className='cursor-pointer hover:text-indigo-700'>Advertising</li>
+            <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>About</li>
+            <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Partnerships</li>
+            <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Careers</li>
+            <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Newsroom</li>
+            <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Advertising</li>
           </ul>
           <ul className='text-right lg:flex'>
-            <li className='cursor-pointer hover:text-indigo-700'>Home</li>
-            <li className='cursor-pointer hover:text-indigo-700'>Destinations</li>
-            <li className='cursor-pointer hover:text-indigo-700'>Travel</li>
-            <li className='cursor-pointer hover:text-indigo-700'>View</li>
-            <li className='cursor-pointer hover:text-indigo-700'>Book</li>
+            <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Home</li>
+            <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Destinations</li>
+            <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Travel</li>
+            <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>View</li>
+            <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Book</li>
           </ul>
         </div>
       </div>

@@ -25,15 +25,15 @@ const Navbar = () => {
         <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>TRAVELER.</h1>
       </div>
       <ul className='hidden md:flex'>
-        <li className='cursor-pointer hover:text-indigo-700'>Home</li>
-        <li className='cursor-pointer hover:text-indigo-700'>Destination</li>
-        <li className='cursor-pointer hover:text-indigo-700'>Travel</li>
-        <li className='cursor-pointer hover:text-indigo-700'>View</li>
-        <li className='cursor-pointer hover:text-indigo-700'>Book</li>
+        <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Home</li>
+        <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Destination</li>
+        <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Travel</li>
+        <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>View</li>
+        <li className='cursor-pointer hover:text-indigo-400 hover:font-bold'>Book</li>
       </ul>
       <div className='hidden md:flex'>
-        <BiSearch className='mr-2 cursor-pointer  hover:text-indigo-700' size={20}/>
-        <BsPerson className='cursor-pointer hover:text-indigo-700' size={20}/>
+        <BiSearch className='mr-2 cursor-pointer  hover:text-indigo-400' size={20}/>
+        <BsPerson className='cursor-pointer hover:text-indigo-400' size={20}/>
       </div>
 
       {/* hamburger */}
@@ -45,21 +45,21 @@ const Navbar = () => {
       <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
           <h1>TRAVELER.</h1>
-          <li className='border-b cursor-pointer hover:text-indigo-700'>Home</li>
-          <li className='border-b cursor-pointer hover:text-indigo-700'>Destinations</li>
-          <li className='border-b cursor-pointer hover:text-indigo-700'>Travel</li>
-          <li className='border-b cursor-pointer hover:text-indigo-700'>View</li>
-          <li className='border-b cursor-pointer hover:text-indigo-700'>Book</li>
+          <li className='border-b cursor-pointer hover:text-indigo-400 hover:font-bold'>Home</li>
+          <li className='border-b cursor-pointer hover:text-indigo-400 hover:font-bold'>Destinations</li>
+          <li className='border-b cursor-pointer hover:text-indigo-400 hover:font-bold'>Travel</li>
+          <li className='border-b cursor-pointer hover:text-indigo-400 hover:font-bold'>View</li>
+          <li className='border-b cursor-pointer hover:text-indigo-400 hover:font-bold'>Book</li>
           <div className='flex flex-col'>
             <button className='my-6'>Search</button>
             <button>Account</button>
           </div>
           <div className='flex justify-between my-6'>
-            <FaFacebook className='icon hover:text-indigo-700' />
-            <FaTwitter className='icon hover:text-indigo-700' />
-            <FaYoutube className='icon hover:text-indigo-700' />
-            <FaPinterest className='icon hover:text-indigo-700' />
-            <FaInstagram className='icon hover:text-indigo-700' />
+            <FaFacebook className='icon hover:text-indigo-400' />
+            <FaTwitter className='icon hover:text-indigo-400' />
+            <FaYoutube className='icon hover:text-indigo-400' />
+            <FaPinterest className='icon hover:text-indigo-400' />
+            <FaInstagram className='icon hover:text-indigo-400' />
           </div>
         </ul>
       </div>
